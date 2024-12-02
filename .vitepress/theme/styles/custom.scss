@@ -1,0 +1,124 @@
+:root{
+.image-container{
+    border-radius: 50%;
+}
+}
+/* .vitepress/theme/custom.css */
+/* .vitepress/theme/custom.css */
+:root {
+   --vp-t-gray-soft: rgba(142, 150, 170, 0.14);
+    --vp-c-gray-soft: rgba(142, 150, 170, 0.14);
+    --vp-shadow-1: 0 1px 2px rgba(0, 0, 0, 0.04), 0 1px 2px rgba(0, 0, 0, 0.06);
+  }
+  [data-v-336fadc6] .image-src{
+    border-radius: 50%;
+    top:20vh;
+    left:30vw;
+  }
+  .main[data-v-336fadc6]{
+    position: absolute;
+    z-index: -1;
+    background: url(../../../public/珠穆朗玛.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  top: 0vh;
+  left: 0;
+  height: 100vh;
+  width: 100vw;
+  }
+  .VPHero[data-v-336fadc6]{
+    padding: 0;
+  }
+ 
+  .clip[data-v-336fadc6]{
+   text-align: center;
+   
+  }
+  .name[data-v-336fadc6], .text[data-v-336fadc6]{
+    width: 100vw;
+    max-width: 100vw;
+ margin: 5vh;
+    text-align: center;
+    background: linear-gradient(to bottom, #ffffff, #add8e6);
+    -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  }
+  .tagline[data-v-336fadc6]{
+    text-align: center;
+    width: 100vw;
+    max-width: 100vw;
+    background: linear-gradient(to bottom, #add8e6, #24354f);
+    -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+@media (min-width: 960px) {
+  .container[data-v-336fadc6] {
+    flex-direction: column;
+  }
+}
+@media (min-width: 960px) {
+  .VPNav[data-v-0444d75f] {
+      position: relative;
+  }
+}
+
+.Layout[data-v-b2ce3056]{
+  position: relative;
+}
+.VPFeatures[data-v-0ae8f0b0]{
+  top: 120vh;
+height: 70vh;
+font-size: 1.2rem;
+color: #333; /* 文字颜色 */
+background-color: #ffffff; /* 背景颜色 */
+border: 2px solid #ADD8E6; /* 浅蓝色边框 */
+border-radius: 8px; /* 圆角 */
+box-shadow: 0 4px 8px rgba(173, 216, 230, 0.4); /* 边框的阴影效果 */
+transition: all 0.3s ease; /* 平滑过渡 */
+:hover {
+  border-color: #87CEEB; /* 悬停时改变为稍深的蓝色 */
+  box-shadow: 0 6px 12px rgba(173, 216, 230, 0.6); /* 增强阴影 */
+  //transform: translateY(-5px); /* 向上抬升 */
+}
+}
+.VPNavBar[data-v-b461bac0]{
+  top: 108vh;
+  position: relative;
+
+  font-size: 1.2rem;
+  color: #333; /* 文字颜色 */
+  background-color: #ffffff; /* 背景颜色 */
+  border: 2px solid #ADD8E6; /* 浅蓝色边框 */
+  border-radius: 8px; /* 圆角 */
+  box-shadow: 0 4px 8px rgba(173, 216, 230, 0.4); /* 边框的阴影效果 */
+  transition: all 0.3s ease; /* 平滑过渡 */
+  :hover {
+    border-color: #87CEEB; /* 悬停时改变为稍深的蓝色 */
+    box-shadow: 0 6px 12px rgba(173, 216, 230, 0.6); /* 增强阴影 */
+    //transform: translateY(-5px); /* 向上抬升 */
+  }}
+
+ img, video {
+  border-radius: 50%;
+  text-align: center;
+  height: 10vh;
+  
+}
+
+
+.VPNavBar[data-v-b461bac0]:not(.home) {
+  top: 0;
+  position: fixed;
+  width: 100vw;
+}
+.vp-doc h2{
+  bottom: -100vh;
+  position: absolute;
+  background-color: #f8f9fa;  /* 背景色 */
+  padding: 20px 0;  /* 上下内边距 */
+  text-align: center;  /* 内容居中 */
+  color: #6c757d;  /* 文字颜色，灰色 */
+  font-size: 14px;  /* 文字大小 */
+  font-family: 'Arial', sans-serif;  /* 字体 */
+}
